@@ -3,7 +3,7 @@ import { Fragment } from "react";
 import Head from "next/head";
 import NewMeetupForm from "../../components/meetups/NewMeetupForm";
 
-function NewMeetupPage() {
+function NewMeetupPage(props) {
   const router = useRouter();
 
   async function addMeetupHandler(enteredMeetupData) {
